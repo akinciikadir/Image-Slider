@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+.images{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    
+   
+}
+
+.images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    
+}
+
+.buttons i{
+    font-size: 30px;
+    color: white;
+    
+
+}
+
+    
